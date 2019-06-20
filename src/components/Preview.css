@@ -89,3 +89,23 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Preview {
+    overflow: hidden;
+  }
+  .Frame img {
+    max-width: 210px;
+    max-height: 210px;
+  }
+
+  .Frame {
+    max-width: 210px;
+    max-height: 210px;
+  }
+
+  .Frame-empty {
+    max-width: 210px;
+    max-height: 210px;
+  }
+}
