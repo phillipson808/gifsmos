@@ -5,12 +5,20 @@
   bottom: 0;
   width: 200px;
   padding-top: 20px;
+  padding-bottom: 20px;
   background: #2e2e2e;
   border-right: 1px solid black;
   text-align: center;
   transform: translateX(-100%);
   transition: 0.2s transform;
   color: #fff;
+  overflow: scroll;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .Burst-expanded {

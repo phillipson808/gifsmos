@@ -11,6 +11,13 @@
   transform: translateX(-100%);
   transition: 0.2s transform;
   color: #fff;
+  overflow: scroll;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .Settings input[type='checkbox'] {
