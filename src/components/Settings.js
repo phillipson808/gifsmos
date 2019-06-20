@@ -60,7 +60,7 @@ class Settings extends Component {
           value={isNaN(interval) ? '' : interval}
           onChange={this.handleInputUpdate}
         />
-        <div>
+        <div className="check-box">
           <input
             type="checkbox"
             name="oversample"

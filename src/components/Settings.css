@@ -45,3 +45,7 @@
 .Settings-input-error {
   border-color: #cc0000;
 }
+
+.check-box {
+  padding-bottom: 20px;
+}
